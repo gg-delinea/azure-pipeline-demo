@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\DSVV1\\index.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "env": {
+                "INPUT_CLIENTID": "d2d67c5b-93c6-423c-85a1-3a427e2e3335",
+                "INPUT_CLIENTSECRET": "btl-pIFL1jVjxHBGoiOgMU1U_jK4jseKOYlAzc25GxQ",
+                "INPUT_SERVERURL": "https://grregg.secretsvaultcloud.com/v1/",
+                "INPUT_SECRETPATH": "azure-devops/pipeline-one/dev-build",
+                "INPUT_DATAFILTER": "*",
+                "INPUT_VARIABLEPREFIX": "DSV_"
+            }
+        }
+    ]
+}
+
